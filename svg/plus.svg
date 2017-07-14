@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="12px" viewBox="0 0 11 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="plus" fill-rule="nonzero" fill="#858582">
+            <g id="Group" transform="translate(0.000000, 0.637820)">
+                <path d="M5.5,0 C5.12029375,0 4.8125,0.307810937 4.8125,0.6875 L4.8125,4.81249828 L0.6875,4.81249828 C0.307810938,4.81249828 0,5.12029719 0,5.50000344 C0,5.87970969 0.307810938,6.18750344 0.6875,6.18750344 L4.8125,6.18750344 L4.8125,10.3125034 C4.8125,10.6921925 5.12029375,11.0000034 5.5,11.0000034 C5.87970625,11.0000034 6.1875,10.6921925 6.1875,10.3125034 L6.1875,6.18750344 L10.3125,6.18750344 C10.6921891,6.18750344 11,5.87970969 11,5.50000344 C11,5.12029719 10.6921891,4.81249828 10.3125,4.81249828 L6.1875,4.81249828 L6.1875,0.6875 C6.1875,0.307810937 5.87970625,0 5.5,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

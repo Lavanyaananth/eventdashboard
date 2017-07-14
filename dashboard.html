@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width" />
+
+<head>
+    <title>Dashboard - App</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="row">
+            <!-- Hamburger Menu -->
+            <div id="topNav" class="navigation">
+                <span id="closebtn" onclick="navToggle()">
+                 <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+                </span>
+                <ul class="menulist">
+                    <li><a class="menuitems menu-one" href="#">Events</a></li>
+                    <li><a class="menuitems menu-two" href="#">Todos</a></li>
+                    <li><a class="menuitems menu-three" href="#">Scheduler</a></li>
+                    <li><a class="menuitems menu-four" href="#">Progress</a></li>
+                    <li><a class="menuitems menu-five" href="#">Search</a></li>
+                </ul>
+            </div>
+            <div id="main">
+            </div>
+            <!-- End -->
+            <div class="sectionOne">
+                <ul class="menu">
+                    <li class="menu-display">
+                        <a href="#" class="menu-icons">
+                            <img src="images/display.png" width="60" height="60">
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-icons menu-one">
+                            <span class="icons icon-article"></span>
+                            <span class="addNew">
+                                <i class="icon-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-icons menu-two">
+                            <span class="icons icon-notification"></span>
+                            <span class="addNew">
+                                <i class="icon-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-icons menu-three">
+                            <span class="icons icon-calendar"></span>
+                            <span class="addNew">
+                                <i class="icon-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-icons menu-four">
+                            <span class="icons icon-ladder"></span>
+                        </a>
+                    </li>
+                    <li class="menu-item active">
+                        <a href="#" class="menu-icons menu-five">
+                            <span class="icons icon-search"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sectionTwo">
+                <div id="document" style="display: none">
+                    <div class="centralContent">
+                        <h3>Hey there!</h3>
+                        <p> There are no events as of now, Check back later :) </p>
+                        <span> Please Checkout the search space! </span>
+                    </div>
+                </div>
+                <div id="notification" style="display: none">
+                    <div class="centralContent">
+                        <h3>Hey there!</h3>
+                        <p> There are no todos as of now, Check back later :) </p>
+                        <span> Please Checkout the search space! </span>
+                    </div>
+                </div>
+                <div id="calendar" style="display: none">
+                    <div class="centralContent">
+                        <h3>Hey there!</h3>
+                        <p> Schedule an item! </p>
+                        <span> Please Checkout the search space! </span>
+                    </div>
+                </div>
+                <div id="progressSection" style="display: none">
+                    <div class="centralContent">
+                        <h3>Hey there!</h3>
+                        <p> No items to show their progress, Check back later :) </p>
+                        <span> Please Checkout the search space! </span>
+                    </div>
+                </div>
+                <div class="resultsWrapper" id="searchSection">
+                    <div class="searchWrapper">
+                        <input type="text" class="searchBar" name="search" placeholder="Search or enter a keyword..">
+                    </div>
+                    <div class="checkboxWrapper">
+                        <div class="cb-group">
+                            <input type="checkbox" id="todo" value="todo" checked>
+                            <label for="todo">Todos</label>
+                        </div>
+                        <div class="cb-group">
+                            <input type="checkbox" id="discussions" value="discussions" checked>
+                            <label for="discussions">Discussions</label>
+                        </div>
+                        <div class="cb-group">
+                            <input type="checkbox" id="files" value="files">
+                            <label for="files">Files</label>
+                        </div>
+                        <div class="cb-group">
+                            <input type="checkbox" id="progress" value="progress">
+                            <label for=" progress ">Progress</label>
+                        </div>
+                        <div class="cb-group">
+                            <input type="checkbox" id="teammember " value="teammember ">
+                            <label for="teammember">Team members</label>
+                        </div>
+                    </div>
+                    <h3 class="result-stat"> 35 Search results for "design" </h3>
+                    <div class="searchResults ">
+                        <ul class="results">
+                            <li class="result-item">
+                                <div class="stamp">
+                                    <span class="tl-icon"><i class="icons icon-article tl-icon-set"></i></span>
+                                    <br />
+                                    <span class="date"> 17 July </span>
+                                </div>
+                                <div class="rightSideContent">
+                                    <span class="imgOnLeft"><img src="images/docs1.png" > </span>
+                                    <div class="desc">
+                                        <h3 style="margin:0;display: inline-block;">Preview_timeline.jpg</h3>
+                                        <p>Attached to comment timeline_wireframes <a href="#" class="author">by Bharat</a></p> <span class="download"> Download </span>
+                                        <p class="tag">timeline</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="result-item">
+                                <div class="stamp">
+                                    <span class="tl-icon"><i class="icons icon-article tl-icon-set"></i></span>
+                                    <br />
+                                    <span class="date"> 15 July </span>
+                                </div>
+                                <div class="rightSideContent">
+                                    <span class="content"><img src="images/s1.png"></span>
+                                <p>Attached to comment timeline_wireframes <a href="#" class="author">by Bharat</a></p>
+                                <span class="download"> Download </span>
+                                </div>
+                            </li>
+                            <li class="result-item">
+                                <div class="stamp">
+                                    <span class="tl-icon"><i class="icons icon-notification tl-icon-set"></i></span>
+                                    <br />
+                                    <span class="date"> 19 July </span>
+                                </div>
+                                <div class="rightSideContent">
+                                    <span class="userImage"><img src="https://randomuser.me/api/portraits/thumb/men/81.jpg" width="50" height="50"> </span>
+                                    <div class="desc">
+                                        <h3 style="margin:0;display: inline-block;">Discussion name will go here</h3>
+                                        <p class="discussion-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                                        <p>under<a href="#" class="author"> sharing of final proposal</a></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="result-item">
+                                <div class="stamp">
+                                    <span class="tl-icon"><i class="icons icon-calendar tl-icon-set"></i></span>
+                                    <br />
+                                    <span class="date"> 20 July</span>
+                                </div>
+                                <div class="rightSideContent">
+                                    <span class="imgOnLeft"><img src="images/docs2.png" > </span>
+                                    <div class="desc">
+                                        <h3 style="margin:0;display: inline-block;">Preview_timeline.jpg</h3>
+                                        <p>Attached to comment timeline_wireframes by Bharat.</p>
+                                        <p></p> <span class="download"> Download </span></div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btnwrapper">
+                            <button class="showmoreBtn"> Show More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+        //Toggle function for the side-menu
+        $(function() {
+
+            $('.menu-one').on('click', function() {
+                $('#document').show();
+                $('#notification, #calendar, #progressSection, #searchSection').hide();
+            });
+            $('.menu-two').on('click', function() {
+                $('#document, #calendar, #progressSection, #searchSection').hide();
+                $('#notification').show();
+            });
+            $('.menu-three').on('click', function() {
+                $('#document, #notification, #progressSection, #searchSection').hide();
+                $('#calendar').show();
+            });
+            $('.menu-four').on('click', function() {
+                $('#document, #notification, #calendar, #searchSection').hide();
+                $('#progressSection').show();
+            });
+            $('.menu-five').on('click', function() {
+                $('#document, #notification, #calendar, #progressSection').hide();
+                $('#searchSection').show();
+            });
+        });
+
+        //Active state toggle for the side-menu
+        $(".menu-item").click(function() {
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+        var nav = document.getElementById("topNav");
+        var main = document.getElementById("main");
+        var menu = document.getElementsByClassName("menuitems");
+        var close = document.getElementById("closebtn");
+
+        nav.style.height = "50px";
+        for (i = 0; i < menu.length; i++) {
+            menu[i].style.marginTop = "100px";
+        };
+
+        close.addEventListener("click", function() {
+            var menuIcon = close.children;
+            for (i = 0; i < menuIcon.length; i++) {
+                menuIcon[i].classList.toggle("active");
+            }
+        });
+
+        function navToggle() {
+            //to close
+            if (nav.style.height <= "275px") {
+                nav.style.height = "50px";
+                main.style.marginTop = "50px";
+
+                var i = 0;
+                for (i = 0; i < menu.length; i++) {
+                    menu[i].style.opacity = "0.0";
+                    menu[i].style.marginTop = "100px";
+                };
+                // document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
+
+
+            }
+            //to open
+            else if (nav.style.height <= "50px") {
+                nav.style.height = "275px";
+                main.style.marginTop = "275px";
+                var i = 0;
+                for (i = 0; i < menu.length; i++) {
+                    menu[i].style.opacity = "1.0";
+                    menu[i].style.marginTop = "0px";
+                };
+                // document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
+
+
+            }
+
+        };
+        </script>
+</body>
+
+</html>

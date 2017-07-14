@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="30px" viewBox="0 0 19 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>ladder</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ladder" transform="translate(-1.000000, 0.000000)" fill-rule="nonzero" fill="#858582">
+            <g id="Group" transform="translate(1.000000, 0.000000)">
+                <g id="Rectangle-path">
+                    <rect transform="translate(5.228348, 14.963459) rotate(17.336935) translate(-5.228348, -14.963459) " x="4.57615267" y="-0.395737335" width="1.30439032" height="30.7183921"></rect>
+                    <rect transform="translate(13.052935, 14.975328) rotate(17.336935) translate(-13.052935, -14.975328) " x="12.4007396" y="-0.383867769" width="1.30439032" height="30.7183921"></rect>
+                </g>
+                <rect id="Rectangle-path" x="8.02173913" y="5.34782609" width="7.76086957" height="1.30434783"></rect>
+                <rect id="Rectangle-path" x="6.26086957" y="11.0869565" width="7.76086957" height="1.30434783"></rect>
+                <rect id="Rectangle-path" x="4.5" y="16.7608696" width="7.76086957" height="1.30434783"></rect>
+                <rect id="Rectangle-path" x="2.67391304" y="22.5" width="7.76086957" height="1.30434783"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
